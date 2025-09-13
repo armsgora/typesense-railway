@@ -11,5 +11,5 @@
 
 # site block, listens on the $PORT environment variable, automatically assigned by railway
 :{$PORT} {
-	reverse_proxy http://127.0.0.1:8118
+	reverse_proxy http://127.0.0.1:8108
 }
